@@ -84,7 +84,7 @@ class ShopThread : public Thread{
 		int supplycheck();
 		
 		/**
-		This extremely unconvential calling method is used to circumvent an inability to use 
+		This extremely unconventional calling method is used to circumvent an inability to use 
 		non-static methods' addresses. In order to maintain an object oriented design, static 
 		methods return the addresses of class methods. This approach is used for the 
 		ForgeThread class as well as the ShopThread class.
