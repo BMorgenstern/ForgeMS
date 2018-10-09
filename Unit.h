@@ -2,7 +2,6 @@
 #define __UNIT_CLASS__
 
 #include "fe7.h"
-//temporary fix while Unit class is under construction
 
 Unit* (*getUnit)(int id) = (Unit*(*)(int))(0x8019430 | 1);
 Unit* (*getUnitCharacter)(int index) = (Unit* (*)(int))(0x801829C | 1);
